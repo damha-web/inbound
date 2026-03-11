@@ -43,8 +43,8 @@ class OpenAIResponsesAdapter:
     """
 
     model: str = "gpt-4.1-mini"
-    timeout_sec: int = 60
-    max_retries: int = 2
+    timeout_sec: int = 120
+    max_retries: int = 3
     retry_backoff_sec: float = 1.0
 
     def generate(self, prompt: str) -> str:
