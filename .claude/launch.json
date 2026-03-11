@@ -1,0 +1,26 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Marketing Proposal Generator",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["src/run_proposal.py", "--client-name", "TestClient", "--industry", "consulting", "--region", "Seoul", "--budget-range", "1M-5M", "--backend", "mock"],
+      "port": 8000,
+      "description": "Marketing proposal generation CLI (single proposal)"
+    },
+    {
+      "name": "Batch Proposal Generator",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["src/run_batch_proposals.py", "--input", "scripts/sample_clients.csv", "--backend", "mock"],
+      "port": 8001,
+      "description": "Marketing proposal batch processing (multiple proposals)"
+    },
+    {
+      "name": "HTML Preview Server",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8080", "--directory", "outputs"],
+      "port": 8080,
+      "description": "Static file server for previewing generated HTML proposals"
+    }
+  ]
+}

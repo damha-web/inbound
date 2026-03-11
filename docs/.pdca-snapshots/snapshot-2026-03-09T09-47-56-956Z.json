@@ -1,0 +1,30 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-03-09T08:20:00.000Z",
+  "activeFeatures": [
+    "marketing-proposal-system"
+  ],
+  "primaryFeature": "marketing-proposal-system",
+  "features": {
+    "marketing-proposal-system": {
+      "status": "Doing",
+      "matchRate": 0,
+      "iterations": 0
+    }
+  },
+  "pipeline": {
+    "currentPhase": 3,
+    "level": "Dynamic",
+    "phaseHistory": [
+      1,
+      2
+    ]
+  },
+  "session": {
+    "startedAt": "2026-03-09T08:12:42.131Z",
+    "onboardingCompleted": true,
+    "lastActivity": "2026-03-09T08:20:00.000Z"
+  },
+  "_snapshotTimestamp": "2026-03-09T09:47:56.956Z",
+  "_reason": "pre-compress"
+}

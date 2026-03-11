@@ -1,0 +1,3 @@
+client_name,industry,region,budget_range,target_segments,constraints,shared_context
+SampleClinicA,medical,Busan Haeundae,"500-800 KRW x10000 / month","women 20s,women 30s","medical ad compliance,no exaggerated claims","Focus on local search and place reviews"
+SampleClinicB,medical,Seoul Gangnam,"800-1200 KRW x10000 / month","men 30s,women 40s","medical ad compliance,no guaranteed outcomes","Need brand repositioning for premium segment"

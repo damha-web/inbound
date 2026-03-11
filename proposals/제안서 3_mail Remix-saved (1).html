@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리팅성형외과 부산 - 프리미엄 마케팅 제안서</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        premium: {
+                            gold: '#C5A059',
+                            navy: '#1A2B48',
+                            dark: '#111111',
+                            gray: '#F8F9FA',
+                            accent: '#4A5568',
+                            sage: '#718096'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'Outfit', 'sans-serif'],
+                        serif: ['Noto Serif KR', 'serif'],
+                        display: ['Outfit', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #1a1a1a;
+            scroll-behavior: smooth;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #1A2B48 0%, #C5A059 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bento-item {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .bento-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+        }
+        .timeline-dot {
+            position: relative;
+        }
+        .timeline-dot::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 12px;
+            height: 12px;
+            background: #C5A059;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body class="font-sans leading-relaxed">
+
+    <!-- Header & Hero Section -->
+    <header class="relative pt-20 pb-16 px-6 overflow-hidden bg-premium-gray">
+        <div class="max-w-6xl mx-auto text-center relative z-10">
+            <div class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-premium-gold uppercase bg-white rounded-full shadow-sm border border-premium-gold/20">
+                Premium Marketing Proposal
+            </div>
+            <h1 class="text-5xl md:text-7xl font-display font-extrabold tracking-tight mb-6 leading-tight">
+                리팅성형외과 <span class="gradient-text">부산점</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-premium-sage font-light max-w-2xl mx-auto mb-10 leading-relaxed">
+                부산 최고의 안티에이징 랜드마크를 위한<br>
+                정밀 상권 진단 및 매체 믹스 최적화 제안
+            </p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-4 text-sm font-medium text-premium-accent">
+                <span class="flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    작성일: 2026. 03. 09
+                </span>
+                <span class="hidden md:inline text-gray-300">|</span>
+                <span class="flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                    분석가: (주)담하 수석 컨설턴트
+                </span>
+            </div>
+        </div>
+        <!-- Decorative Elements -->
+        <div class="absolute top-0 right-0 w-64 h-64 bg-premium-gold/5 rounded-full -mr-32 -mt-32 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-premium-navy/5 rounded-full -ml-48 -mb-48 blur-3xl"></div>
+    </header>
+
+    <!-- Logo Section -->
+    <div class="py-12 flex justify-center border-b border-gray-100">
+        <img src="https://damha.co.kr/logo.png" alt="Company Logo" class="h-12 object-contain opacity-80 grayscale hover:grayscale-0 transition-all">
+    </div>
+
+    <!-- 1. Market Analysis Bento Grid -->
+    <section class="max-w-6xl mx-auto px-6 py-24">
+        <div class="flex items-center gap-4 mb-12">
+            <h2 class="text-3xl font-display font-bold">01. 정밀 상권 및 포지션 분석</h2>
+            <div class="h-[1px] flex-grow bg-gray-200"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+            <!-- Geographic Location -->
+            <div class="md:col-span-7 bg-premium-navy text-white p-10 rounded-3xl bento-item flex flex-col justify-between">
+                <div>
+                    <div class="text-premium-gold text-sm font-bold tracking-widest mb-4 uppercase">Geographic Context</div>
+                    <h3 class="text-2xl font-serif mb-6">범내골역 1번 출구, <br>부산 전역을 잇는 메디컬 요충지</h3>
+                    <p class="text-white/70 leading-relaxed">
+                        부산지하철 1호선 초역세권으로 압도적 접근성을 보유합니다. 서면의 번잡함을 피하면서도 전문 의료 인프라를 누리고자 하는 중장년층에게 최적의 입지입니다.
+                    </p>
+                </div>
+                <div class="mt-8 pt-8 border-t border-white/10 flex gap-6">
+                    <div>
+                        <div class="text-3xl font-bold">1호선</div>
+                        <div class="text-xs text-white/50">범내골역</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold">4050</div>
+                        <div class="text-xs text-white/50">핵심 타겟층</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Competitor Pulse -->
+            <div class="md:col-span-5 bg-premium-gray p-10 rounded-3xl bento-item border border-gray-100">
+                <div class="text-premium-accent text-sm font-bold tracking-widest mb-4 uppercase">Competition</div>
+                <h3 class="text-2xl font-bold mb-4">경쟁 환경 정밀 진단</h3>
+                <div class="space-y-4">
+                    <div class="flex items-center justify-between p-3 bg-white rounded-xl shadow-sm">
+                        <span class="text-sm font-medium">시장 경쟁 밀도</span>
+                        <span class="text-red-500 font-bold">매우 높음</span>
+                    </div>
+                    <p class="text-sm text-premium-sage leading-relaxed">
+                        서면 메디컬 스트리트의 포화된 트렌디 시술 마케팅 속에서, 리팅만의 '리프팅 특화' 전문성이 가장 강력한 무기가 됩니다.
+                    </p>
+                    <div class="pt-4 border-t border-gray-200">
+                        <span class="inline-block px-3 py-1 bg-premium-navy text-white text-xs rounded-full mr-2 mb-2">안면거상</span>
+                        <span class="inline-block px-3 py-1 bg-premium-navy text-white text-xs rounded-full mr-2 mb-2">미니리프팅</span>
+                        <span class="inline-block px-3 py-1 bg-premium-navy text-white text-xs rounded-full mr-2 mb-2">고성능 장비</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AS-IS Status -->
+            <div class="md:col-span-12 glass-card p-10 rounded-3xl bento-item border-l-4 border-l-premium-gold shadow-xl">
+                <div class="grid md:grid-cols-2 gap-10 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">현재 포지션 (AS-IS)</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3">
+                                <span class="text-premium-gold font-bold">✓</span>
+                                <p class="text-premium-accent">플레이스 평점 4.8+ 우수한 고객 만족도 지표 확보</p>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-premium-gold font-bold">✓</span>
+                                <p class="text-premium-accent">리프팅 단일 분야에 대한 확고한 신뢰 기반 형성</p>
+                            </li>
+                            <li class="flex items-start gap-3 text-red-400">
+                                <span class="font-bold">!</span>
+                                <p>피크 타임 대기 시간 발생으로 인한 서비스 만족도 저하 우려</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-premium-gray/50 rounded-2xl p-6 text-center">
+                        <div class="text-4xl font-extrabold text-premium-navy mb-1">4.X</div>
+                        <div class="text-sm text-premium-sage uppercase tracking-widest font-bold">Place Rating</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Competitor Analysis -->
+    <section class="bg-premium-dark text-white py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div>
+                    <h2 class="text-premium-gold text-sm font-bold tracking-widest mb-4 uppercase">Market Research</h2>
+                    <h3 class="text-4xl font-display font-bold">02. 동종업 시장조사 (Top 4)</h3>
+                </div>
+                <p class="text-white/50 max-w-md">서면권 핵심 경쟁사들의 전략을 분석하여 리팅만의 차별화된 침투 전략을 도출합니다.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Competitor 1 -->
+                <div class="group border border-white/10 p-8 rounded-3xl hover:bg-white/5 transition-all">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h4 class="text-xl font-bold text-premium-gold">하늘성형외과</h4>
+                            <p class="text-xs text-white/40 uppercase mt-1">Huge Scale / Multi-target</p>
+                        </div>
+                        <span class="px-3 py-1 bg-white/10 rounded-full text-[10px] font-bold">지역 내 초대형</span>
+                    </div>
+                    <p class="text-sm text-white/70 mb-6 leading-relaxed">
+                        오랜 업력과 사후 케어 시스템 마케팅 전면 배치. 광범위한 타겟을 아우르는 브랜딩 전략 구사.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-[10px] border border-white/20 px-2 py-1 rounded">#수술후케어</span>
+                        <span class="text-[10px] border border-white/20 px-2 py-1 rounded">#전세대</span>
+                    </div>
+                </div>
+
+                <!-- Competitor 2 -->
+                <div class="group border border-white/10 p-8 rounded-3xl hover:bg-white/5 transition-all">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h4 class="text-xl font-bold text-premium-gold">VS라인의원</h4>
+                            <p class="text-xs text-white/40 uppercase mt-1">Trendy / SNS Viral</p>
+                        </div>
+                        <span class="px-3 py-1 bg-white/10 rounded-full text-[10px] font-bold">트렌디 감성</span>
+                    </div>
+                    <p class="text-sm text-white/70 mb-6 leading-relaxed">
+                        인스타그램 릴스 및 인플루언서 협업을 통한 감각적 노출. 3040 얼리 안티에이징 타겟 집중.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-[10px] border border-white/20 px-2 py-1 rounded">#커스텀리프팅</span>
+                        <span class="text-[10px] border border-white/20 px-2 py-1 rounded">#숏폼마케팅</span>
+                    </div>
+                </div>
+
+                <!-- Competitor 3 -->
+                <div class="group border border-white/10 p-8 rounded-3xl hover:bg-white/5 transition-all">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h4 class="text-xl font-bold text-premium-gold">포유성형외과</h4>
+                            <p class="text-xs text-white/40 uppercase mt-1">Premium / Technical</p>
+                        </div>
+                        <span class="px-3 py-1 bg-white/10 rounded-full text-[10px] font-bold">강소 병원</span>
+                    </div>
+                    <p class="text-sm text-white/70 mb-6 leading-relaxed">
+                        고가 리프팅 장비와 기술력을 강조하여 객단가 높은 프리미엄 고객 유치 및 정밀 상담 중심 운영.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-[10px] border border-white/20 px-2 py-1 rounded">#장비특화</span>
+                        <span class="text-[10px] border border-white/20 px-2 py-1 rounded">#고객맞춤</span>
+                    </div>
+                </div>
+
+                <!-- Competitor 4 -->
+                <div class="group border border-white/10 p-8 rounded-3xl hover:bg-white/5 transition-all">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h4 class="text-xl font-bold text-premium-gold">K성형외과의원</h4>
+                            <p class="text-xs text-white/40 uppercase mt-1">Network / Promo Focus</p>
+                        </div>
+                        <span class="px-3 py-1 bg-white/10 rounded-full text-[10px] font-bold">대형 네트워크</span>
+                    </div>
+                    <p class="text-sm text-white/70 mb-6 leading-relaxed">
+                        미용 앱 내 후기 마케팅과 공격적인 프로모션 운영. 대규모 트래픽 유도에 최적화된 퍼포먼스 전략.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-[10px] border border-white/20 px-2 py-1 rounded">#미용앱상위</span>
+                        <span class="text-[10px] border border-white/20 px-2 py-1 rounded">#후기마케팅</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Recommendation Strategy -->
+    <section class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-display font-bold mb-4">03. 브랜딩 및 마케팅 추천 전략</h2>
+            <p class="text-premium-sage">부산 4050 타겟을 관통하는 투트랙(Two-track) 커뮤니케이션</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <!-- Online -->
+            <div class="space-y-8">
+                <div class="p-8 bg-premium-gray rounded-[2rem] relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-6 opacity-10">
+                        <svg class="w-16 h-16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold mb-6 flex items-center gap-2">
+                        <span class="w-8 h-8 bg-premium-navy text-white rounded-lg flex items-center justify-center text-sm">ON</span>
+                        온라인 채널 추천
+                    </h4>
+                    <div class="space-y-6">
+                        <div>
+                            <div class="text-premium-gold font-bold text-sm mb-1">1순위: 네이버 프리미엄 블로그 & 밴드</div>
+                            <p class="text-sm text-premium-accent">심층적인 정보 탐색을 선호하는 중장년층 타겟의 고관여 행동 패턴 공략</p>
+                        </div>
+                        <div>
+                            <div class="text-premium-gold font-bold text-sm mb-1">2순위: 당근마켓 광고 & 유튜브 숏폼</div>
+                            <p class="text-sm text-premium-accent">지역 기반의 높은 신뢰도 유입 및 시각적 직관성을 통한 친밀도 제고</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Offline -->
+            <div class="space-y-8">
+                <div class="p-8 border border-gray-100 rounded-[2rem] relative overflow-hidden shadow-sm">
+                    <h4 class="text-xl font-bold mb-6 flex items-center gap-2">
+                        <span class="w-8 h-8 bg-premium-gold text-white rounded-lg flex items-center justify-center text-sm">OFF</span>
+                        오프라인 채널 추천
+                    </h4>
+                    <div class="space-y-6">
+                        <div>
+                            <div class="text-premium-navy font-bold text-sm mb-1">추천 매체: 프리미엄 아파트 엘리베이터 TV</div>
+                            <p class="text-sm text-premium-accent">해운대/수영구 등 고소득 주거지 대상 '호텔급 시설' 이미지 각인</p>
+                        </div>
+                        <div>
+                            <div class="text-premium-navy font-bold text-sm mb-1">메시지 전략: "오직 안티에이징 연구"</div>
+                            <p class="text-sm text-premium-accent">종합 병원과 차별화되는 리프팅 전문 랜드마크로서의 권위 확보</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Diagnosis & Improvement -->
+    <section class="bg-premium-gray py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-display font-bold mb-12 text-center">04. 채널별 진단 및 개선 과제</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Place -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                    <div class="w-12 h-12 bg-green-50 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <h4 class="font-bold mb-4">네이버 플레이스</h4>
+                    <div class="text-xs font-bold text-red-400 mb-2 uppercase">Diagnosis</div>
+                    <p class="text-sm text-premium-accent mb-4">우수한 평점이나 대기 피드백 관리 필요</p>
+                    <div class="text-xs font-bold text-green-600 mb-2 uppercase">Improvement</div>
+                    <ul class="text-xs text-premium-sage space-y-2">
+                        <li>• 혼잡 시간대 사전 안내 시스템</li>
+                        <li>• 1인 대기실 중심의 프리미엄 사진</li>
+                        <li>• 정중한 개인 맞춤형 답글</li>
+                    </ul>
+                </div>
+
+                <!-- Blog -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                    <div class="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10l4 4v10a2 2 0 01-2 2z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 2v4a2 2 0 002 2h4"></path></svg>
+                    </div>
+                    <h4 class="font-bold mb-4">블로그 / SEO</h4>
+                    <div class="text-xs font-bold text-red-400 mb-2 uppercase">Diagnosis</div>
+                    <p class="text-sm text-premium-accent mb-4">단순 홍보성 콘텐츠 위주 구성</p>
+                    <div class="text-xs font-bold text-green-600 mb-2 uppercase">Improvement</div>
+                    <ul class="text-xs text-premium-sage space-y-2">
+                        <li>• 원장 직접 집필 안티에이징 칼럼</li>
+                        <li>• '부산40대얼굴처짐' 등 롱테일 키워드</li>
+                        <li>• 의학 정보 기반의 고신뢰도 기획</li>
+                    </ul>
+                </div>
+
+                <!-- SNS -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                    <div class="w-12 h-12 bg-purple-50 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h4 class="font-bold mb-4">SNS (인스타/유튜브)</h4>
+                    <div class="text-xs font-bold text-red-400 mb-2 uppercase">Diagnosis</div>
+                    <p class="text-sm text-premium-accent mb-4">정보 전달 위주의 차가운 톤앤매너</p>
+                    <div class="text-xs font-bold text-green-600 mb-2 uppercase">Improvement</div>
+                    <ul class="text-xs text-premium-sage space-y-2">
+                        <li>• 호텔급 라운지 체류 경험 숏폼</li>
+                        <li>• 섬세한 응대 등 정서적 접근</li>
+                        <li>• 웜톤(Warm-tone) 비주얼 통일</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Brand Identity -->
+    <section class="py-24 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text- premium-gold text-xs font-bold tracking-[0.3em] uppercase mb-6">Brand Direction</h2>
+            <div class="text-4xl font-serif italic mb-12">"시간을 되돌리는 깊이의 차이"</div>
+            
+            <div class="flex flex-col md:flex-row items-center justify-center gap-12 mb-16">
+                <div class="opacity-40">
+                    <div class="text-xs uppercase mb-2">AS-IS</div>
+                    <div class="text-lg">서면 근처 바쁘고 유명한 성형외과</div>
+                </div>
+                <div class="text-premium-gold hidden md:block">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </div>
+                <div class="bg-premium-navy text-white px-8 py-6 rounded-2xl shadow-xl">
+                    <div class="text-xs uppercase text-premium-gold/60 mb-2 font-bold">TO-BE</div>
+                    <div class="text-xl font-bold">리프팅에만 집중한<br>프라이빗 안티에이징 랜드마크</div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-4 border border-gray-100 rounded-xl text-sm font-medium">우아함 (Elegance)</div>
+                <div class="p-4 border border-gray-100 rounded-xl text-sm font-medium">차분함 (Calmness)</div>
+                <div class="p-4 border border-gray-100 rounded-xl text-sm font-medium">신뢰감 (Trust)</div>
+                <div class="p-4 border border-gray-100 rounded-xl text-sm font-medium">전문성 (Expertise)</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Monthly Plan -->
+    <section class="bg-premium-navy py-24 px-6 text-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex justify-between items-end mb-16">
+                <div>
+                    <h2 class="text-3xl font-display font-bold">06. 월간 콘텐츠 플랜</h2>
+                    <p class="text-white/50 mt-2">4주간의 단계별 브랜드 가치 확산 로드맵</p>
+                </div>
+                <div class="text-right hidden md:block">
+                    <div class="text-2xl font-bold text-premium-gold">Monthly Roadmap</div>
+                </div>
+            </div>
+
+            <div class="space-y-12 relative">
+                <div class="absolute left-[21px] top-0 bottom-0 w-[1px] bg-white/10 hidden md:block"></div>
+                
+                <!-- Week 1 -->
+                <div class="relative pl-0 md:pl-12">
+                    <div class="timeline-dot hidden md:block absolute left-0 top-2 -ml-[5px]"></div>
+                    <div class="bg-white/5 p-8 rounded-3xl border border-white/10">
+                        <div class="flex flex-col md:flex-row gap-8">
+                            <div class="md:w-1/4">
+                                <span class="text-premium-gold font-bold text-lg">1주차</span>
+                                <h4 class="text-xl font-bold mt-2">브랜드 철학 확립</h4>
+                                <p class="text-xs text-white/40 mt-4 leading-relaxed">"왜 리프팅 한 분야에만 집중하는가?"에 대한 근본적인 물음과 해답 제시</p>
+                            </div>
+                            <div class="md:w-3/4 grid md:grid-cols-2 gap-6">
+                                <div class="bg-white/5 p-5 rounded-2xl border border-white/5">
+                                    <div class="text-[10px] text-premium-gold font-bold mb-2">BLOG / COLUMN</div>
+                                    <div class="text-sm font-bold mb-2">"한 우물만 파는 고집, 리팅 부산점의 진심"</div>
+                                    <p class="text-xs text-white/60 leading-relaxed">전문의 인터뷰 기반의 장문 칼럼을 통한 신뢰 구축</p>
+                                </div>
+                                <div class="bg-white/5 p-5 rounded-2xl border border-white/5">
+                                    <div class="text-[10px] text-premium-gold font-bold mb-2">SNS / VIDEO</div>
+                                    <div class="text-sm font-bold mb-2">감성 시네마틱 룸 투어 (15s)</div>
+                                    <p class="text-xs text-white/60 leading-relaxed">호텔급 인테리어와 프라이빗 공간을 조명하는 영상</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Week 2 -->
+                <div class="relative pl-0 md:pl-12">
+                    <div class="timeline-dot hidden md:block absolute left-0 top-2 -ml-[5px]"></div>
+                    <div class="bg-white/5 p-8 rounded-3xl border border-white/10">
+                        <div class="flex flex-col md:flex-row gap-8">
+                            <div class="md:w-1/4">
+                                <span class="text-premium-gold font-bold text-lg">2주차</span>
+                                <h4 class="text-xl font-bold mt-2">정교한 맞춤 진단</h4>
+                                <p class="text-xs text-white/40 mt-4 leading-relaxed">천편일률적인 샷 수가 아닌 개인별 맞춤 솔루션의 과학적 근거 제시</p>
+                            </div>
+                            <div class="md:w-3/4 grid md:grid-cols-2 gap-6">
+                                <div class="bg-white/5 p-5 rounded-2xl border border-white/5">
+                                    <div class="text-[10px] text-premium-gold font-bold mb-2">INFOGRAPHIC</div>
+                                    <div class="text-sm font-bold mb-2">울쎄라 vs 써마지, 내 피부에 맞는 선택</div>
+                                    <p class="text-xs text-white/60 leading-relaxed">도표와 일러스트를 활용한 정보 전달형 카드뉴스</p>
+                                </div>
+                                <div class="bg-white/5 p-5 rounded-2xl border border-white/5">
+                                    <div class="text-[10px] text-premium-gold font-bold mb-2">LOCAL AD</div>
+                                    <div class="text-sm font-bold mb-2">당근마켓 지역 밀착형 광고</div>
+                                    <p class="text-xs text-white/60 leading-relaxed">부산진구/연제구 인근 주민 대상 신뢰 기반 상담 유도</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Week 3 -->
+                <div class="relative pl-0 md:pl-12">
+                    <div class="timeline-dot hidden md:block absolute left-0 top-2 -ml-[5px]"></div>
+                    <div class="bg-white/5 p-8 rounded-3xl border border-white/10">
+                        <div class="flex flex-col md:flex-row gap-8">
+                            <div class="md:w-1/4">
+                                <span class="text-premium-gold font-bold text-lg">3주차</span>
+                                <h4 class="text-xl font-bold mt-2">수술적 안티에이징</h4>
+                                <p class="text-xs text-white/40 mt-4 leading-relaxed">근본적인 개선을 위한 SMAS층 접근법의 이해와 기술력 강조</p>
+                            </div>
+                            <div class="md:w-3/4 grid md:grid-cols-2 gap-6">
+                                <div class="bg-white/5 p-5 rounded-2xl border border-white/5">
+                                    <div class="text-[10px] text-premium-gold font-bold mb-2">NAVER BAND</div>
+                                    <div class="text-sm font-bold mb-2">근막층을 다스려야 진짜 리프팅입니다</div>
+                                    <p class="text-xs text-white/60 leading-relaxed">중장년 커뮤니티 타겟의 가독성 좋은 큰 글씨 콘텐츠</p>
+                                </div>
+                                <div class="bg-white/5 p-5 rounded-2xl border border-white/5">
+                                    <div class="text-[10px] text-premium-gold font-bold mb-2">Q&A SHORT-FORM</div>
+                                    <div class="text-sm font-bold mb-2">전문의가 답하는 거상 흉터 걱정</div>
+                                    <p class="text-xs text-white/60 leading-relaxed">수술에 대한 두려움을 해소하는 원장님 직접 출연 영상</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Week 4 -->
+                <div class="relative pl-0 md:pl-12">
+                    <div class="timeline-dot hidden md:block absolute left-0 top-2 -ml-[5px]"></div>
+                    <div class="bg-white/5 p-8 rounded-3xl border border-white/10">
+                        <div class="flex flex-col md:flex-row gap-8">
+                            <div class="md:w-1/4">
+                                <span class="text-premium-gold font-bold text-lg">4주차</span>
+                                <h4 class="text-xl font-bold mt-2">안심 사후 케어</h4>
+                                <p class="text-xs text-white/40 mt-4 leading-relaxed">시술 이후의 과정까지 책임지는 리팅만의 정교한 배웅 시스템</p>
+                            </div>
+                            <div class="md:w-3/4 grid md:grid-cols-2 gap-6">
+                                <div class="bg-white/5 p-5 rounded-2xl border border-white/5">
+                                    <div class="text-[10px] text-premium-gold font-bold mb-2">CARE SYSTEM</div>
+                                    <div class="text-sm font-bold mb-2">리팅 부산점의 마지막 배웅 프로세스</div>
+                                    <p class="text-xs text-white/60 leading-relaxed">붓기 관리 및 전용 레이저 케어 등 사후 관리 실물 공개</p>
+                                </div>
+                                <div class="bg-white/5 p-5 rounded-2xl border border-white/5">
+                                    <div class="text-[10px] text-premium-gold font-bold mb-2">EMOTIONAL PIECE</div>
+                                    <div class="text-sm font-bold mb-2">"당신의 오늘을 응원합니다"</div>
+                                    <p class="text-xs text-white/60 leading-relaxed">중년의 아름다움을 응원하는 따뜻한 감성 이미지 피드</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Budget Mix Visualization -->
+    <section class="py-24 px-6 max-w-4xl mx-auto text-center">
+        <h3 class="text-2xl font-bold mb-12">채널별 예산 비중 (Budget Mix)</h3>
+        <div class="flex flex-wrap justify-center items-end gap-2 md:gap-4 h-64 mb-8">
+            <div class="flex flex-col items-center gap-4 flex-1 max-w-[120px]">
+                <div class="text-xs font-bold text-premium-navy">50%</div>
+                <div class="w-full bg-premium-navy rounded-t-xl transition-all hover:opacity-80" style="height: 150px;"></div>
+                <div class="text-[10px] uppercase font-bold text-premium-sage">Naver Focus</div>
+            </div>
+            <div class="flex flex-col items-center gap-4 flex-1 max-w-[120px]">
+                <div class="text-xs font-bold text-premium-gold">20%</div>
+                <div class="w-full bg-premium-gold rounded-t-xl transition-all hover:opacity-80" style="height: 60px;"></div>
+                <div class="text-[10px] uppercase font-bold text-premium-sage">Local/Band</div>
+            </div>
+            <div class="flex flex-col items-center gap-4 flex-1 max-w-[120px]">
+                <div class="text-xs font-bold text-premium-sage">15%</div>
+                <div class="w-full bg-premium-sage rounded-t-xl transition-all hover:opacity-80" style="height: 45px;"></div>
+                <div class="text-[10px] uppercase font-bold text-premium-sage">SNS/Shorts</div>
+            </div>
+            <div class="flex flex-col items-center gap-4 flex-1 max-w-[120px]">
+                <div class="text-xs font-bold text-gray-300">15%</div>
+                <div class="w-full bg-gray-200 rounded-t-xl transition-all hover:opacity-80" style="height: 45px;"></div>
+                <div class="text-[10px] uppercase font-bold text-premium-sage">Events/Etc</div>
+            </div>
+        </div>
+        <p class="text-xs text-premium-sage leading-relaxed max-w-xl mx-auto italic">
+            * 각 콘텐츠는 의료법 제56조 및 동법 시행령을 준수하며, <br>과장 광고를 지양하고 정보 전달 중심으로 제작됩니다.
+        </p>
+    </section>
+
+    <!-- Footer / CTA -->
+    <div class="pb-24 px-6 text-center">
+        <a href="https://damha.co.kr" target="_blank" class="inline-flex items-center gap-4 px-12 py-6 bg-premium-navy text-white rounded-full font-bold text-lg shadow-2xl hover:bg-premium-dark transition-all transform hover:scale-105 active:scale-95 group">
+            <span>💰 전문가 상담 및 비용 문의하기</span>
+            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+        </a>
+    </div>
+
+</body>
+</html>

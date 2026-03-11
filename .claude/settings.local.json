@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python src/run_proposal.py --client-name \"TestClient\" --industry \"consulting\" --region \"Seoul\" --budget-range \"1M-5M\" --backend \"mock\")",
+      "Bash(python -c \":*)",
+      "Bash(where pandoc)",
+      "Bash(python -m pip list)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
