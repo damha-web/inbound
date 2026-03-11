@@ -2,17 +2,20 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# 환경 변수 설정
+# Environment
 ENV PYTHONUNBUFFERED=1
-ENV PYTHONPATH=/app:$PYTHONPATH
+ENV PYTHONPATH=/app:/app/v1_src:$PYTHONPATH
 
-# 의존성 패키지 설치
-COPY requirements.txt .
+# Install dependencies
+COPY v2/backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 애플리케이션 코드 복사
-COPY . .
+# Copy V1 pipeline source
+COPY src/ ./v1_src/
 
-# 실행
+# Copy V2 backend application code
+COPY v2/backend/ .
+
+# Run
 EXPOSE 8000
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
